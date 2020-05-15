@@ -1,3 +1,5 @@
 Create React
 
 npx create-react-app client-app --template typescript --use-npm
+https://sung.codes/blog/2018/12/18/page-not-found-on-netlify-with-react-router/   -- for issues if you use netlify
+npm install axios
