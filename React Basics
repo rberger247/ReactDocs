@@ -14,3 +14,13 @@ Add This to Server side in startup
                 });
 
             });
+            
+ In the configure method 
+             app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .AllowCredentials());
+            app.UseCors("CorsPolicy");
+            app.UseHttpsRedirection();
+            app.UseMvc();
