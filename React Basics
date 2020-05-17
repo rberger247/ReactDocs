@@ -3,3 +3,14 @@ Create React
 npx create-react-app client-app --template typescript --use-npm
 https://sung.codes/blog/2018/12/18/page-not-found-on-netlify-with-react-router/   -- for issues if you use netlify
 npm install axios
+npm install semantic-ui-react
+
+Add This to Server side in startup 
+ services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000/");
+                });
+
+            });
