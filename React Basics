@@ -32,3 +32,8 @@ Add This to Server side in startup
             <BrowserRouter>
             <App>
             <BrowserRouter>
+In the return statement in the app.ts 
+<Switch>
+ <Route  path= '/dashboard' exact component={dashboard}></Route> 
+
+</Switch>
