@@ -4,6 +4,8 @@ npx create-react-app client-app --template typescript --use-npm
 https://sung.codes/blog/2018/12/18/page-not-found-on-netlify-with-react-router/   -- for issues if you use netlify
 npm install axios
 npm install semantic-ui-react
+npm install react-router-dom
+npm install --save @types/react-router
 
 Add This to Server side in startup 
  services.AddCors(opt =>
