@@ -26,3 +26,9 @@ Add This to Server side in startup
             app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
             app.UseMvc();
+            
+            
+       Wrap the App component within the Router tag
+            <BrowserRouter>
+            <App>
+            <BrowserRouter>
